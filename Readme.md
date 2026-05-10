@@ -1,6 +1,6 @@
 <div align="center">
   <!-- ⚡ WIDE BANNER: Upload yamraj13_wide_text_banner_v2.png to your repo! -->
-  <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/yamraj13_wide_text_banner_v2.png" alt="YAMRAJ 13" width="100%" />
+  <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/yamraj13_wide_text_banner_v2_1778411269262.png" alt="YAMRAJ 13" width="100%" />
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=1000&color=00F0FF&center=true&vCenter=true&width=1000&height=120&lines=%E2%96%93%E2%96%92%E2%96%91+YAMRAJ+13+ONLINE+%E2%96%91%E2%96%92%E2%96%93;%5B!%5D+Vibe+Coder+%7C+Shadow_Runner;%5B!%5D+Red+Teaming+%7C+AI+%7C+WAPT;%5B!%5D+Initializing+Mainframe..." alt="YAMRAJ Typing" />
 </div>
