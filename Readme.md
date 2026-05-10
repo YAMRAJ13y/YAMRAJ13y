@@ -25,70 +25,64 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YAMRAJ13y&hide
-
----
-
-### 🖥️ < System_Metrics />
-
-<table align="center" border="0">
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=YAMRAJ13y&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A200FF&icon_color=00F0FF&text_color=8B949E&count_private=true" alt="Stats" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=YAMRAJ13y&hide_border=true&background=0D1117&ring=A200FF&fire=00F0FF&currStreakNum=8B949E&currStreakLabel=00F0FF&sideNums=8B949E&sideLabels=8B949E&dates=8B949E" alt="Streak" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=YAMRAJ13y&hide_border=true&bg_color=0D1117&color=A200FF&line=00F0FF&point=FFFFFF&area=true" width="100%" />
 </div>
 
 ---
 
-### 🛠️ < Cyber_Arsenal />
+### 🛡️ < Security_Toolkit />
 
 <div align="center">
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Kali-Dark.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Linux-Dark.svg"></code>
-  <code><img height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bash-Dark.svg"></code>
+  <img src="https://skillicons.dev/icons?i=py,ts,react,nextjs,nodejs,kali,docker,linux,bash,git,github,vscode,postman,mongodb,mysql" />
 </div>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Offensive_Ops</b></td>
+    <td align="center"><b>Secure_Dev</b></td>
+    <td align="center"><b>Intel_Gathering</b></td>
+  </tr>
+  <tr>
+    <td><code>> Penetration_Testing</code></td>
+    <td><code>> Zero_Trust_Auth</code></td>
+    <td><code>> OSINT_Frameworks</code></td>
+  </tr>
+  <tr>
+    <td><code>> Vulnerability_Scan</code></td>
+    <td><code>> API_Hardening</code></td>
+    <td><code>> Metadata_Analysis</code></td>
+  </tr>
+</table>
 
 ---
 
-### 📂 < Executable_Binaries />
+### 📂 < Active_Binaries />
 
-<div align="center">
+<p align="center">
   <a href="https://github.com/YAMRAJ13y/yamraj13">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=yamraj13&hide_border=true&bg_color=0D1117&title_color=A200FF&icon_color=00F0FF&text_color=8B949E" alt="yamraj13" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=yamraj13&hide_border=true&bg_color=0D1117&title_color=A200FF&icon_color=00F0FF&text_color=8B949E" />
   </a>
   <a href="https://github.com/YAMRAJ13y/SportsEra">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=SportsEra&hide_border=true&bg_color=0D1117&title_color=A200FF&icon_color=00F0FF&text_color=8B949E" alt="SportsEra" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=SportsEra&hide_border=true&bg_color=0D1117&title_color=A200FF&icon_color=00F0FF&text_color=8B949E" />
   </a>
-</div>
+</p>
 
 ---
 
-### 📡 < Social_Uplink />
+### 🔌 < Establish_Link />
 
 <div align="center">
+  <a href="#"><img src="https://img.shields.io/badge/TELEGRAM-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
 </div>
 
 <br />
 
 <div align="center">
-  <code>PS C:\Users\Sumit> system --exit</code>
+  <code><img height="20" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Powershell-Dark.svg"> PS C:\Users\YAMRAJ13y> system --shutdown --now</code>
   <br />
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cyber.png" width="100%" />
 </div>
