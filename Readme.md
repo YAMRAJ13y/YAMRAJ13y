@@ -1,6 +1,6 @@
 <div align="center">
   <!-- ⚡ LEGENDARY BANNER: Upload anime_cyberpunk_banner_v3_legendary.png to your repo! -->
-  <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/anime_cyberpunk_banner_v3_legendary.png" alt="Legendary Mainframe" width="100%" />
+  <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/github_profile_banner_1778408272793.png" alt="Legendary Mainframe" width="100%" />
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=45&pause=1000&color=00F0FF&center=true&vCenter=true&width=1000&height=150&lines=%E2%96%93%E2%96%92%E2%96%91+INITIALIZING+GHOST_PROTOCOL+%E2%96%91%E2%96%92%E2%96%93;%5B!%5D+Sumit+Solanki+%3A%3A+System_God;%5B!%5D+OSINT_OPERATIVE_DETECTED;%5B!%5D+BREACHING_FIREWALLS..." alt="Legendary Typing" />
 </div>
