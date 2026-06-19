@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YAMRAJ 13 // Solanki Sumit</title>
+<meta name="description" content="Interactive 3D portfolio of Solanki Sumit (YAMRAJ 13) - Full-Stack Developer & Red Teamer." />
+<style>
+  :root{
+    --cyan:#00F0FF; --red:#FF003C; --green:#39FF14; --bg:#05070d; --panel:#0D1117; --muted:#8B949E;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:#e6edf3;font-family:'Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;overflow-x:hidden}
+  #bg-canvas{position:fixed;inset:0;z-index:0;display:block}
+  .scanlines{position:fixed;inset:0;z-index:1;pointer-events:none;
+    background:repeating-linear-gradient(to bottom,rgba(0,0,0,0) 0px,rgba(0,0,0,0) 2px,rgba(0,240,255,.025) 3px,rgba(0,0,0,0) 4px)}
+  .content{position:relative;z-index:2}
+  section{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:80px 6vw;opacity:0;transform:translateY(40px);transition:opacity .9s ease,transform .9s ease}
+  section.visible{opacity:1;transform:none}
+  .glow{text-shadow:0 0 8px var(--cyan),0 0 20px rgba(0,240,255,.5)}
+  h1{font-size:clamp(2.5rem,9vw,7rem);letter-spacing:.1em;font-weight:800;color:#fff}
+  .accent{color:var(--cyan)}
+  .accent-r{color:var(--red)}
+  .tag{color:var(--muted);font-size:clamp(.9rem,2.2vw,1.4rem);margin-top:18px;letter-spacing:.15em}
+  .label{color:var(--cyan);font-size:.8rem;letter-spacing:.4em;margin-bottom:18px;opacity:.8}
+  h2{font-size:clamp(1.6rem,5vw,3rem);color:#fff;margin-bottom:8px}
+  h2 .br{color:var(--red)}
+  .panel{max-width:780px;width:100%;background:rgba(13,17,23,.6);border:1px solid rgba(0,240,255,.25);
+    border-radius:14px;padding:34px;backdrop-filter:blur(6px);box-shadow:0 0 40px rgba(0,240,255,.08)}
+  p.body{color:#c9d1d9;line-height:1.9;font-size:clamp(.95rem,2vw,1.15rem)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;width:100%;max-width:900px;margin-top:10px}
+  .card{background:rgba(13,17,23,.6);border:1px solid rgba(0,240,255,.2);border-radius:12px;padding:22px;
+    transition:transform .3s,border-color .3s,box-shadow .3s}
+  .card:hover{transform:translateY(-6px);border-color:var(--cyan);box-shadow:0 10px 30px rgba(0,240,255,.18)}
+  .card h3{color:var(--cyan);font-size:1.15rem;margin-bottom:8px}
+  .card .meta{color:var(--red);font-size:.78rem;letter-spacing:.2em;margin-bottom:10px}
+  .card p{color:#9da7b3;font-size:.92rem;line-height:1.7}
+  .chips{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px}
+  .chip{border:1px solid rgba(57,255,20,.4);color:var(--green);padding:8px 16px;border-radius:30px;font-size:.85rem;
+    letter-spacing:.1em;transition:.3s}
+  .chip:hover{background:rgba(57,255,20,.12);box-shadow:0 0 14px rgba(57,255,20,.3)}
+  .links{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;margin-top:26px}
+  .btn{display:inline-block;padding:14px 30px;border:1px solid var(--cyan);color:var(--cyan);border-radius:8px;
+    text-decoration:none;letter-spacing:.15em;font-size:.9rem;transition:.3s;background:rgba(0,240,255,.04)}
+  .btn:hover{background:var(--cyan);color:#05070d;box-shadow:0 0 24px rgba(0,240,255,.5)}
+  .scroll-hint{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);color:var(--muted);font-size:.75rem;
+    letter-spacing:.3em;z-index:3;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+  .prompt{color:var(--green)}
+  footer{text-align:center;padding:40px;color:var(--muted);font-size:.8rem;position:relative;z-index:2;letter-spacing:.15em}
+</style>
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div class="scanlines"></div>
+<div class="scroll-hint">SCROLL TO DECRYPT &darr;</div>
+
+<div class="content">
+  <section class="visible" id="hero">
+    <div class="label">// SYSTEM ONLINE</div>
+    <h1 class="glow">YAMRAJ <span class="accent">13</span></h1>
+    <div class="tag"><span class="prompt">user@yamraj:~$</span> Solanki Sumit &mdash; Vibe Coder | Full-Stack Dev | Red Teamer</div>
+  </section>
+
+  <section id="about">
+    <div class="label">// IDENTITY_LOG</div>
+    <div class="panel">
+      <h2>&lt; About<span class="br">_</span>Me /&gt;</h2>
+      <p class="body">I build full-stack web applications by day and study how to break them by night. My world sits at the intersection of <span class="accent">software engineering</span> and <span class="accent-r">offensive security</span> &mdash; shipping clean React / Node.js products while exploring red teaming, web app pen-testing, and OSINT. I'm constantly learning, automating, and pushing AI into everything I build.</p>
+    </div>
+  </section>
+
+  <section id="arsenal">
+    <div class="label">// COMBAT_ARSENAL</div>
+    <h2>&lt; Skills<span class="br">_</span>Loaded /&gt;</h2>
+    <div class="chips">
+      <span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span>
+      <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Docker</span>
+      <span class="chip">Linux</span><span class="chip">Bash</span><span class="chip">MongoDB</span>
+      <span class="chip">MySQL</span><span class="chip">AI Integration</span><span class="chip">Red Teaming</span>
+      <span class="chip">WAPT</span><span class="chip">OSINT</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="label">// ACTIVE_BINARIES</div>
+    <h2>&lt; Projects<span class="br">_</span>Deployed /&gt;</h2>
+    <div class="grid">
+      <a class="card" href="https://github.com/YAMRAJ13y/StudyHub" target="_blank" rel="noopener">
+        <div class="meta">[ JAVASCRIPT ]</div><h3>StudyHub</h3>
+        <p>A platform built to organize and streamline study workflows.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/SportsEra" target="_blank" rel="noopener">
+        <div class="meta">[ PHP ]</div><h3>SportsEra</h3>
+        <p>A sports-focused web application.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/Penalty_money" target="_blank" rel="noopener">
+        <div class="meta">[ PROJECT ]</div><h3>Penalty_money</h3>
+        <p>A utility project exploring tracking and settlement logic.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="label">// UPLINK_CHANNELS</div>
+    <div class="panel" style="text-align:center">
+      <h2>&lt; Establish<span class="br">_</span>Connection /&gt;</h2>
+      <p class="body">Always open to building, breaking, and collaborating.</p>
+      <div class="links">
+        <a class="btn" href="https://github.com/YAMRAJ13y" target="_blank" rel="noopener">GITHUB</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">LINKEDIN</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">TELEGRAM</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>PS C:\Users\YAMRAJ&gt; shutdown /s /t 0 &nbsp;//&nbsp; Built with Three.js</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+  const canvas=document.getElementById('bg-canvas');
+  const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+  renderer.setSize(innerWidth,innerHeight);
+  const scene=new THREE.Scene();
+  scene.fog=new THREE.FogExp2(0x05070d,0.055);
+  const camera=new THREE.PerspectiveCamera(70,innerWidth/innerHeight,0.1,100);
+  camera.position.set(0,0,12);
+
+  // Particle field
+  const COUNT=1400;const geo=new THREE.BufferGeometry();const pos=new Float32Array(COUNT*3);
+  for(let i=0;i<COUNT*3;i++){pos[i]=(Math.random()-0.5)*40;}
+  geo.setAttribute('position',new THREE.BufferAttribute(pos,3));
+  const pmat=new THREE.PointsMaterial({color:0x00F0FF,size:0.06,transparent:true,opacity:0.8});
+  const points=new THREE.Points(geo,pmat);scene.add(points);
+
+  // Central wireframe icosahedron (the "core")
+  const core=new THREE.Mesh(
+    new THREE.IcosahedronGeometry(3.2,1),
+    new THREE.MeshBasicMaterial({color:0x00F0FF,wireframe:true,transparent:true,opacity:0.35})
+  );scene.add(core);
+  const core2=new THREE.Mesh(
+    new THREE.IcosahedronGeometry(2.0,0),
+    new THREE.MeshBasicMaterial({color:0xFF003C,wireframe:true,transparent:true,opacity:0.5})
+  );scene.add(core2);
+
+  // Grid floor for depth
+  const grid=new THREE.GridHelper(60,60,0x00F0FF,0x123);
+  grid.position.y=-8;grid.material.transparent=true;grid.material.opacity=0.25;scene.add(grid);
+
+  let mx=0,my=0;
+  addEventListener('mousemove',e=>{mx=(e.clientX/innerWidth-0.5);my=(e.clientY/innerHeight-0.5);});
+  let scrollY=0;addEventListener('scroll',()=>{scrollY=window.scrollY;});
+
+  const clock=new THREE.Clock();
+  function animate(){
+    requestAnimationFrame(animate);
+    const t=clock.getElapsedTime();
+    points.rotation.y=t*0.03;points.rotation.x=t*0.01;
+    core.rotation.y=t*0.15;core.rotation.x=t*0.08;
+    core2.rotation.y=-t*0.25;core2.rotation.z=t*0.12;
+    // camera reacts to mouse + scroll
+    camera.position.x+=(mx*3-camera.position.x)*0.05;
+    camera.position.y+=(-my*3-camera.position.y)*0.05;
+    camera.position.z=12+Math.sin(scrollY*0.001)*2;
+    camera.lookAt(0,0,0);
+    renderer.render(scene,camera);
+  }
+  animate();
+
+  addEventListener('resize',()=>{
+    camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();
+    renderer.setSize(innerWidth,innerHeight);
+  });
+
+  // Scroll reveal
+  const io=new IntersectionObserver(es=>{
+    es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
+  },{threshold:0.25});
+  document.querySelectorAll('section').forEach(s=>io.observe(s));
+
+  // Hide scroll hint after scrolling
+  addEventListener('scroll',()=>{
+    const h=document.querySelector('.scroll-hint');
+    if(h)h.style.opacity=window.scrollY>100?'0':'';
+  });
+})();
+</script>
+</body>
+</html>
