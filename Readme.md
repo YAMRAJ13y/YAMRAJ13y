@@ -1,12 +1,3 @@
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/yamraj13_wide_text_banner_v2_1778411269262.png" alt="YAMRAJ 13" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=00F0FF&center=true&vCenter=true&width=1000&height=120&lines=%E2%96%93%E2%96%92%E2%96%91+YAMRAJ+13+ONLINE+%E2%96%91%E2%96%92%E2%96%93;%5B!%5D+Vibe+Coder+%7C+Shadow_Runner;%5B!%5D+Red+Teaming+%7C+AI+%7C+WAPT;%5B!%5D+Initializing+Mainframe..." alt="YAMRAJ Typing" />
-
-<img src="https://komarev.com/ghpvc/?username=YAMRAJ13y&style=for-the-badge&color=00F0FF&label=VISITORS" alt="Profile Views" />
-
-<br /><br />
 
 <a href="https://yamraj13y.github.io/YAMRAJ13y/"><img src="https://img.shields.io/badge/%E2%96%B6_LAUNCH_INTERACTIVE_3D_PORTFOLIO-FF003C?style=for-the-badge&logoColor=white" alt="Launch 3D Portfolio" height="42" /></a>
 
