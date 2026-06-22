@@ -93,7 +93,10 @@
 
 ### 🛡️ Security_Lab &nbsp;`// AI-security & defensive tooling`
 
+> 🜂 **[Yamasabha](https://github.com/YAMRAJ13y/yamasabha)** &mdash; *the court of Yama:* one platform + dashboard that runs all 7 engines below. <code>FastAPI</code>
+
 <p align="center">
+<a href="https://github.com/YAMRAJ13y/yamasabha"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=yamasabha&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=FF003C&text_color=8B949E" /></a>
 <a href="https://github.com/YAMRAJ13y/echotrap"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=echotrap&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
 <a href="https://github.com/YAMRAJ13y/skillsentry"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=skillsentry&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
 <a href="https://github.com/YAMRAJ13y/patchpilot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=patchpilot&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
