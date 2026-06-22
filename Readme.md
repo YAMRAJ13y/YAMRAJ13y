@@ -91,6 +91,31 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:FF003C,100:39FF14&height=3&width=100%25&section=header" width="100%" alt="" />
 
+### 🛡️ Security_Lab &nbsp;`// AI-security & defensive tooling`
+
+<p align="center">
+<a href="https://github.com/YAMRAJ13y/echotrap"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=echotrap&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
+<a href="https://github.com/YAMRAJ13y/skillsentry"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=skillsentry&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
+<a href="https://github.com/YAMRAJ13y/patchpilot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=patchpilot&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
+</p>
+
+<table align="center" border="0">
+<tr>
+<td align="center">🪤 <b><a href="https://github.com/YAMRAJ13y/echotrap">EchoTrap</a></b></td>
+<td>Zero-click prompt-injection lab + the defense that stops it &nbsp;<code>OWASP LLM01</code></td>
+</tr>
+<tr>
+<td align="center">🛡️ <b><a href="https://github.com/YAMRAJ13y/skillsentry">SkillSentry</a></b></td>
+<td>Scanner for malicious MCP servers &amp; agent skills &nbsp;<code>OWASP Agentic / ATLAS</code></td>
+</tr>
+<tr>
+<td align="center">🛠️ <b><a href="https://github.com/YAMRAJ13y/patchpilot">PatchPilot</a></b></td>
+<td>Patch what's actually exploited &mdash; CISA KEV + FIRST EPSS over CVSS</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:FF003C,100:39FF14&height=3&width=100%25&section=header" width="100%" alt="" />
+
 ### 🏆 Trophy_Cache
 
 <div align="center">
