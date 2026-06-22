@@ -98,6 +98,7 @@
 <a href="https://github.com/YAMRAJ13y/skillsentry"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=skillsentry&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
 <a href="https://github.com/YAMRAJ13y/patchpilot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=patchpilot&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
 <a href="https://github.com/YAMRAJ13y/iocforge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=iocforge&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
+<a href="https://github.com/YAMRAJ13y/identitywatch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YAMRAJ13y&repo=identitywatch&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E" /></a>
 </p>
 
 <table align="center" border="0">
@@ -116,6 +117,10 @@
 <tr>
 <td align="center">⚒️ <b><a href="https://github.com/YAMRAJ13y/iocforge">IOCForge</a></b></td>
 <td>One verdict from many free intel feeds &mdash; SOC IOC enrichment &amp; triage</td>
+</tr>
+<tr>
+<td align="center">🛂 <b><a href="https://github.com/YAMRAJ13y/identitywatch">IdentityWatch</a></b></td>
+<td>Detection-as-code for identity attacks (impossible travel, MFA fatigue) &mdash; MITRE ATT&amp;CK</td>
 </tr>
 </table>
 
