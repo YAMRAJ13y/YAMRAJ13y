@@ -24,7 +24,7 @@
 <table align="center">
 <tr>
 <td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=YAMRAJ13y&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E&count_private=true&include_all_commits=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=YAMRAJ13y&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=FF003C&text_color=8B949E&count_private=true" />
 </td>
 <td width="50%">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YAMRAJ13y&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=8B949E&icon_color=FF003C" />
@@ -160,5 +160,5 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:FF003C,100:39FF14&height=3&width=100%25&section=header" width="100%" alt="" />
 
 <div align="center">
-<code>PS C:UsersYAMRAJ> shutdown /s /t 0</code>
+<code>PS C:\Users\YAMRAJ> shutdown /s /t 0</code>
 </div>
