@@ -15,6 +15,11 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=FF9400&center=true&vCenter=true&width=900&lines=Solanki+Sumit+//+a.k.a+YAMRAJ+13;Powering+up+web+apps+by+day;Going+Super+Saiyan+on+bugs+by+night;KAMEHAMEHA+--%3E+AI-Security+%26+Defense" alt="typing" />
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/power-blast.png" width="220" alt="power blast" />
+</div>
+
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:FF9400,100:39FF14&height=3&width=100%25&section=header" width="100%" alt="" />
 
 ### SHELL > Identity_Log &nbsp;`// Saiyan_Saga`
