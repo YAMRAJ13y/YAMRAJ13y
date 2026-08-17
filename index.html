@@ -4,8 +4,22 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>YAMRAJ 13 // Solanki Sumit</title>
-<meta name="description" content="Interactive 3D portfolio of Solanki Sumit (YAMRAJ 13) - Full-Stack Developer & Red Teamer." />
-<style>    
+<meta name="description" content="Interactive 3D portfolio of Solanki Sumit (YAMRAJ 13) - Full-Stack Developer, AI-Security Engineer & Red Teamer." />
+<meta name="author" content="Solanki Sumit" />
+<meta name="theme-color" content="#05070d" />
+<link rel="canonical" href="https://yamraj13y.github.io/YAMRAJ13y/" />
+<link rel="icon" href="assets/logo.jpg" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yamraj13y.github.io/YAMRAJ13y/" />
+<meta property="og:title" content="YAMRAJ 13 // Solanki Sumit" />
+<meta property="og:description" content="Full-Stack Developer, AI-Security Engineer & Red Teamer. Seven open-source security engines, one platform." />
+<meta property="og:image" content="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/banner.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="YAMRAJ 13 // Solanki Sumit" />
+<meta name="twitter:description" content="Full-Stack Developer, AI-Security Engineer & Red Teamer." />
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/banner.jpg" />
+<style>
   :root{
     --cyan:#00F0FF; --red:#FF003C; --green:#39FF14; --bg:#05070d; --panel:#0D1117; --muted:#8B949E;
   }
@@ -67,7 +81,7 @@
     <div class="label">// IDENTITY_LOG</div>
     <div class="panel">
       <h2>&lt; About<span class="br">_</span>Me /&gt;</h2>
-      <p class="body">I build full-stack web applications by day and study how to break them by night. My world sits at the intersection of <span class="accent">software engineering</span> and <span class="accent-r">offensive security</span> &mdash; shipping clean React / Node.js products while exploring red teaming, web app pen-testing, and OSINT. I'm constantly learning, automating, and pushing AI into everything I build.</p>
+      <p class="body">I build full-stack web applications by day and study how to break them by night. My world sits at the intersection of <span class="accent">software engineering</span> and <span class="accent-r">offensive security</span> &mdash; shipping clean React / Node.js / FastAPI products while working in red teaming, web app pen-testing, and OSINT. Lately that focus is <span class="accent">AI security</span>: I maintain seven open-source engines covering prompt injection, agent and MCP supply chain, ML model integrity, and SOC triage.</p>
     </div>
   </section>
 
@@ -76,10 +90,55 @@
     <h2>&lt; Skills<span class="br">_</span>Loaded /&gt;</h2>
     <div class="chips">
       <span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span>
-      <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Docker</span>
-      <span class="chip">Linux</span><span class="chip">Bash</span><span class="chip">MongoDB</span>
-      <span class="chip">MySQL</span><span class="chip">AI Integration</span><span class="chip">Red Teaming</span>
-      <span class="chip">WAPT</span><span class="chip">OSINT</span>
+      <span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Node.js</span>
+      <span class="chip">FastAPI</span><span class="chip">Docker</span><span class="chip">Linux</span>
+      <span class="chip">Bash</span><span class="chip">MongoDB</span><span class="chip">Postgres</span>
+      <span class="chip">AI Integration</span><span class="chip">LLM Security</span><span class="chip">Detection Eng.</span>
+      <span class="chip">Red Teaming</span><span class="chip">WAPT</span><span class="chip">OSINT</span>
+    </div>
+  </section>
+
+  <section id="security">
+    <div class="label">// SECURITY_LAB</div>
+    <h2>&lt; Engines<span class="br">_</span>Armed /&gt;</h2>
+    <p class="body" style="text-align:center;max-width:720px;margin-bottom:26px">
+      Open-source AI-security &amp; defensive tooling &mdash; all MIT-licensed, Python, with docs and tests.
+      <a href="https://github.com/YAMRAJ13y/yamasabha" target="_blank" rel="noopener" style="color:var(--green)">Yamasabha</a>
+      is the platform that runs all seven.
+    </p>
+    <div class="grid">
+      <a class="card" href="https://github.com/YAMRAJ13y/echotrap" target="_blank" rel="noopener">
+        <div class="meta">[ OWASP LLM01 ]</div><h3>EchoTrap</h3>
+        <p>Zero-click prompt-injection lab and the defense that stops it.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/skillsentry" target="_blank" rel="noopener">
+        <div class="meta">[ AGENT SECURITY ]</div><h3>SkillSentry</h3>
+        <p>Semantic scanner for malicious MCP servers and agent skills.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/patchpilot" target="_blank" rel="noopener">
+        <div class="meta">[ VULN MGMT ]</div><h3>PatchPilot</h3>
+        <p>Prioritize CVEs by real-world exploitation &mdash; CISA KEV + FIRST EPSS over raw CVSS.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/iocforge" target="_blank" rel="noopener">
+        <div class="meta">[ SOC / TRIAGE ]</div><h3>IOCForge</h3>
+        <p>One unified verdict from many free threat-intel feeds.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/identitywatch" target="_blank" rel="noopener">
+        <div class="meta">[ MITRE ATT&amp;CK ]</div><h3>IdentityWatch</h3>
+        <p>Detection-as-code for identity attacks &mdash; impossible travel, MFA fatigue, spraying.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/pickleguard" target="_blank" rel="noopener">
+        <div class="meta">[ ML SUPPLY CHAIN ]</div><h3>PickleGuard</h3>
+        <p>Statically detect malicious pickle opcodes in ML models without unpickling them.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/leaklens" target="_blank" rel="noopener">
+        <div class="meta">[ CTI / OSINT ]</div><h3>LeakLens</h3>
+        <p>Ransomware leak-site intelligence &mdash; group, sector and country trend dashboards.</p>
+      </a>
+      <a class="card" href="https://github.com/YAMRAJ13y/yamasabha" target="_blank" rel="noopener">
+        <div class="meta">[ PLATFORM ]</div><h3>Yamasabha</h3>
+        <p>One FastAPI dashboard and API over all seven engines above.</p>
+      </a>
     </div>
   </section>
 
@@ -93,11 +152,11 @@
       </a>
       <a class="card" href="https://github.com/YAMRAJ13y/SportsEra" target="_blank" rel="noopener">
         <div class="meta">[ PHP ]</div><h3>SportsEra</h3>
-        <p>A sports-focused web application.</p>
+        <p>A sports community web app with posts, events and authentication.</p>
       </a>
-      <a class="card" href="https://github.com/YAMRAJ13y/Penalty_money" target="_blank" rel="noopener">
-        <div class="meta">[ PROJECT ]</div><h3>Penalty_money</h3>
-        <p>A utility project exploring tracking and settlement logic.</p>
+      <a class="card" href="https://penalty-money.vercel.app" target="_blank" rel="noopener">
+        <div class="meta">[ FASTAPI ]</div><h3>Penalty_money</h3>
+        <p>Group penalty tracker with a live deployment.</p>
       </a>
     </div>
   </section>
@@ -109,8 +168,7 @@
       <p class="body">Always open to building, breaking, and collaborating.</p>
       <div class="links">
         <a class="btn" href="https://github.com/YAMRAJ13y" target="_blank" rel="noopener">GITHUB</a>
-        <a class="btn" href="#" target="_blank" rel="noopener">LINKEDIN</a>
-        <a class="btn" href="#" target="_blank" rel="noopener">TELEGRAM</a>
+        <a class="btn" href="https://github.com/YAMRAJ13y/yamasabha" target="_blank" rel="noopener">SECURITY LAB</a>
       </div>
     </div>
   </section>
@@ -120,9 +178,35 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
+// Reveal + scroll behaviour first, so the page is never blank if the 3D layer fails.
 (function(){
+  const reveal=s=>s.classList.add('visible');
+  if(!('IntersectionObserver' in window)){
+    document.querySelectorAll('section').forEach(reveal);
+  }else{
+    const io=new IntersectionObserver(es=>{
+      es.forEach(e=>{if(e.isIntersecting)reveal(e.target);});
+    },{threshold:0.25});
+    document.querySelectorAll('section').forEach(s=>io.observe(s));
+  }
+  addEventListener('scroll',()=>{
+    const h=document.querySelector('.scroll-hint');
+    if(h)h.style.opacity=window.scrollY>100?'0':'';
+  });
+})();
+
+// 3D background — purely decorative, guarded so any failure stays contained.
+(function(){
+  const reduceMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(typeof THREE==='undefined'||reduceMotion)return;
   const canvas=document.getElementById('bg-canvas');
-  const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
+  let renderer;
+  try{
+    renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
+  }catch(e){
+    canvas.style.display='none';
+    return;
+  }
   renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
   renderer.setSize(innerWidth,innerHeight);
   const scene=new THREE.Scene();
@@ -175,27 +259,7 @@
     camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();
     renderer.setSize(innerWidth,innerHeight);
   });
-
-  // Scroll reveal
-  const io=new IntersectionObserver(es=>{
-    es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
-  },{threshold:0.25});
-  document.querySelectorAll('section').forEach(s=>io.observe(s));
-
-  // Hide scroll hint after scrolling
-  addEventListener('scroll',()=>{
-    const h=document.querySelector('.scroll-hint');
-    if(h)h.style.opacity=window.scrollY>100?'0':'';
-  });
 })();
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-                                               
