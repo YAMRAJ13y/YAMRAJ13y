@@ -1,18 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/banner.jpg" alt="YAMRAJ 13 — Solanki Sumit" width="100%" />
-
-<br />
-
-**Solanki Sumit** &nbsp;//&nbsp; a.k.a **YAMRAJ 13**
-
-Full-Stack Developer &nbsp;|&nbsp; AI-Security Engineer &nbsp;|&nbsp; Red Teamer
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/hero.svg" alt="YAMRAJ 13 — Solanki Sumit · Full-Stack Developer, AI-Security Engineer, Red Teamer · 7 open-source security engines, one platform" width="100%" />
 
 <a href="https://yamraj13y.github.io/YAMRAJ13y/"><img src="https://img.shields.io/badge/%E2%96%B6_LAUNCH_INTERACTIVE_3D_PORTFOLIO-FF003C?style=for-the-badge&logoColor=white" alt="Launch 3D Portfolio" height="38" /></a>
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
 ### SHELL > Identity_Log
 
@@ -23,9 +17,24 @@ Full-Stack Developer &nbsp;|&nbsp; AI-Security Engineer &nbsp;|&nbsp; Red Teamer
 > Lately that means **AI security** — I ship open-source tooling for prompt injection,
 > agent/MCP supply chain, ML model integrity, and SOC triage. Seven engines, one platform.
 
----
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
 ### Security_Lab &nbsp;`// AI-security & defensive tooling`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/engines.svg" alt="Security_Lab — seven engines: EchoTrap (prompt-injection lab and defense), SkillSentry (malicious MCP and agent-skill scanner), PatchPilot (KEV + EPSS exploit-first patching), IOCForge (multi-feed IOC enrichment and triage), IdentityWatch (detection-as-code for identity attacks), PickleGuard (malicious pickle opcodes in ML models), LeakLens (ransomware leak-site intelligence)" width="100%" />
+</div>
+
+<div align="center">
+
+**[Yamasabha](https://github.com/YAMRAJ13y/yamasabha)** &nbsp;·&nbsp; [EchoTrap](https://github.com/YAMRAJ13y/echotrap) &nbsp;·&nbsp; [SkillSentry](https://github.com/YAMRAJ13y/skillsentry) &nbsp;·&nbsp; [PatchPilot](https://github.com/YAMRAJ13y/patchpilot) &nbsp;·&nbsp; [IOCForge](https://github.com/YAMRAJ13y/iocforge) &nbsp;·&nbsp; [IdentityWatch](https://github.com/YAMRAJ13y/identitywatch) &nbsp;·&nbsp; [PickleGuard](https://github.com/YAMRAJ13y/pickleguard) &nbsp;·&nbsp; [LeakLens](https://github.com/YAMRAJ13y/leaklens)
+
+</div>
+
+<details>
+<summary><b>What each engine does</b></summary>
+
+<br />
 
 > **[Yamasabha](https://github.com/YAMRAJ13y/yamasabha)** &mdash; *the court of Yama:* one FastAPI dashboard + API that runs all seven engines below.
 
@@ -41,7 +50,9 @@ Full-Stack Developer &nbsp;|&nbsp; AI-Security Engineer &nbsp;|&nbsp; Red Teamer
 
 <sub>All MIT-licensed, Python, with docs and tests.</sub>
 
----
+</details>
+
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
 ### Combat_Arsenal
 
@@ -57,7 +68,7 @@ Full-Stack Developer &nbsp;|&nbsp; AI-Security Engineer &nbsp;|&nbsp; Red Teamer
 | React / Next.js / Node | Agent & MCP security | WAPT / OSINT |
 | FastAPI / Postgres | Detection engineering | Threat intel (CTI) |
 
----
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
 ### Other_Builds
 
@@ -65,7 +76,7 @@ Full-Stack Developer &nbsp;|&nbsp; AI-Security Engineer &nbsp;|&nbsp; Red Teamer
 - **[SportsEra](https://github.com/YAMRAJ13y/SportsEra)** — sports community web app with posts, events, and auth &nbsp;`PHP`
 - **[Penalty_money](https://github.com/YAMRAJ13y/Penalty_money)** — group penalty tracker &nbsp;`FastAPI` &nbsp;·&nbsp; [live](https://penalty-money.vercel.app)
 
----
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
 ### System_Metrics
 
@@ -82,7 +93,7 @@ Full-Stack Developer &nbsp;|&nbsp; AI-Security Engineer &nbsp;|&nbsp; Red Teamer
 <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" width="98%" />
 </div>
 
----
+<img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
 ### Uplink_Channels
 

@@ -8,7 +8,7 @@
 <meta name="author" content="Solanki Sumit" />
 <meta name="theme-color" content="#05070d" />
 <link rel="canonical" href="https://yamraj13y.github.io/YAMRAJ13y/" />
-<link rel="icon" href="assets/logo.jpg" />
+<link rel="icon" href="assets/favicon.png" />
 
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yamraj13y.github.io/YAMRAJ13y/" />
@@ -62,6 +62,15 @@
     letter-spacing:.3em;z-index:3;animation:pulse 2s infinite}
   @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
   .prompt{color:var(--green)}
+  .sigil{width:min(280px,46vw);border-radius:50%;display:block;margin:0 auto 26px;
+    filter:drop-shadow(0 0 26px rgba(0,240,255,.45)) drop-shadow(0 0 60px rgba(255,0,60,.22));
+    animation:float 7s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-14px) scale(1.025)}}
+  @media (prefers-reduced-motion: reduce){
+    .sigil{animation:none}
+    .scroll-hint{animation:none}
+    section{transition:none}
+  }
   footer{text-align:center;padding:40px;color:var(--muted);font-size:.8rem;position:relative;z-index:2;letter-spacing:.15em}
 </style>
 </head>
@@ -72,6 +81,7 @@
 
 <div class="content">
   <section class="visible" id="hero">
+    <img class="sigil" src="assets/emblem.png" alt="YAMRAJ 13 sigil" width="300" height="300" />
     <div class="label">// SYSTEM ONLINE</div>
     <h1 class="glow">YAMRAJ <span class="accent">13</span></h1>
     <div class="tag"><span class="prompt">user@yamraj:~$</span> Solanki Sumit &mdash; Vibe Coder | Full-Stack Dev | Red Teamer</div>

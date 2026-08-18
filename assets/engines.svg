@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="426" viewBox="0 0 1200 426" role="img" aria-label="Security Lab engine status board">
+<title>Security_Lab // seven engines</title>
+<defs>
+  <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00F0FF"/><stop offset="100%" stop-color="#39FF14"/>
+  </linearGradient>
+</defs>
+<style>
+  .dot { animation: pulse 2.6s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity:.28 } 50% { opacity:1 } }
+  @media (prefers-reduced-motion: reduce) { .dot { animation:none; opacity:.9 } }
+</style>
+<rect width="1200" height="426" rx="12" fill="#05070d"/>
+<rect x="1" y="1" width="1198" height="424" rx="12" fill="none" stroke="#00F0FF" stroke-width="1" opacity="0.28"/>
+<text x="30" y="42" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="19" font-weight="700"
+      fill="url(#hdr)">SECURITY_LAB</text>
+<text x="1170" y="42" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+      font-size="13" fill="#8B949E">7 engines &#183; 1 platform &#183; MIT</text>
+<rect x="30" y="54" width="1140" height="1" fill="#00F0FF" opacity="0.25"/>
+
+<g>
+  <rect x="26" y="52" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="71" r="5" fill="#00F0FF" style="animation-delay:0.00s"/>
+  <text x="74" y="76" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">EchoTrap</text>
+  <text x="248" y="76" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">prompt-injection lab + defense</text>
+  <text x="1154" y="76" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#00F0FF" opacity="0.85">OWASP LLM01</text>
+</g>
+<g>
+  <rect x="26" y="98" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="117" r="5" fill="#39FF14" style="animation-delay:0.32s"/>
+  <text x="74" y="122" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">SkillSentry</text>
+  <text x="248" y="122" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">malicious MCP / agent-skill scanner</text>
+  <text x="1154" y="122" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#39FF14" opacity="0.85">OWASP AGENTIC</text>
+</g>
+<g>
+  <rect x="26" y="144" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="163" r="5" fill="#00F0FF" style="animation-delay:0.64s"/>
+  <text x="74" y="168" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">PatchPilot</text>
+  <text x="248" y="168" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">KEV + EPSS exploit-first patching</text>
+  <text x="1154" y="168" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#00F0FF" opacity="0.85">VULN MGMT</text>
+</g>
+<g>
+  <rect x="26" y="190" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="209" r="5" fill="#39FF14" style="animation-delay:0.96s"/>
+  <text x="74" y="214" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">IOCForge</text>
+  <text x="248" y="214" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">multi-feed IOC enrichment &amp; triage</text>
+  <text x="1154" y="214" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#39FF14" opacity="0.85">SOC TRIAGE</text>
+</g>
+<g>
+  <rect x="26" y="236" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="255" r="5" fill="#00F0FF" style="animation-delay:1.28s"/>
+  <text x="74" y="260" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">IdentityWatch</text>
+  <text x="248" y="260" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">detection-as-code for identity attacks</text>
+  <text x="1154" y="260" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#00F0FF" opacity="0.85">MITRE ATT&amp;CK</text>
+</g>
+<g>
+  <rect x="26" y="282" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="301" r="5" fill="#39FF14" style="animation-delay:1.60s"/>
+  <text x="74" y="306" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">PickleGuard</text>
+  <text x="248" y="306" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">malicious pickle opcodes in ML models</text>
+  <text x="1154" y="306" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#39FF14" opacity="0.85">ML SUPPLY CHAIN</text>
+</g>
+<g>
+  <rect x="26" y="328" width="1148" height="38" rx="6" fill="#0D1117" opacity="0.55"/>
+  <circle class="dot" cx="52" cy="347" r="5" fill="#00F0FF" style="animation-delay:1.92s"/>
+  <text x="74" y="352" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="16"
+        font-weight="700" fill="#e6edf3">LeakLens</text>
+  <text x="248" y="352" font-family="'Fira Code',ui-monospace,Consolas,monospace" font-size="14"
+        fill="#8B949E">ransomware leak-site intelligence</text>
+  <text x="1154" y="352" text-anchor="end" font-family="'Fira Code',ui-monospace,Consolas,monospace"
+        font-size="12" letter-spacing="1.2" fill="#00F0FF" opacity="0.85">CTI / OSINT</text>
+</g>
+</svg>
