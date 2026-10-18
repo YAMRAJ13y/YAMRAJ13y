@@ -70,11 +70,15 @@
 
 <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
-### Other_Builds
+### Flagship_Platforms & Other_Builds
 
-- **[StudyHub](https://github.com/YAMRAJ13y/StudyHub)** — platform to organize and streamline study workflows &nbsp;`JavaScript`
-- **[SportsEra](https://github.com/YAMRAJ13y/SportsEra)** — sports community web app with posts, events, and auth &nbsp;`PHP`
+- **[Pruthwee Volunteers](https://yamraj13y.github.io/YAMRAJ13y/#platforms)** — production volunteer management platform (26 pages, 3 role portals, Supabase RLS, cryptographic PDF certificates) &nbsp;`React 18` &nbsp;`TypeScript` &nbsp;`Supabase`
+- **[Cyber Gurukul](https://yamraj13y.github.io/YAMRAJ13y/#platforms)** — interactive cybersecurity learning platform with zero-compute browser terminal (`xterm.js`, 500+ labs, HMAC validation) &nbsp;`React 19` &nbsp;`Fastify`
+- **[WushuConnect](https://yamraj13y.github.io/YAMRAJ13y/#platforms)** — verified social & athletic network for Wushu martial arts athletes & federations &nbsp;`React 19` &nbsp;`Vite`
+- **[Chitragupt Intelligence](https://yamraj13y.github.io/YAMRAJ13y/#osint-intel)** — courtroom-grade OSINT entity graph with interactive link-analysis &nbsp;`FastAPI` &nbsp;`PostgreSQL + AGE`
 - **[Penalty_money](https://github.com/YAMRAJ13y/Penalty_money)** — group penalty tracker &nbsp;`FastAPI` &nbsp;·&nbsp; [live](https://penalty-money.vercel.app)
+- **[SportsEra](https://github.com/YAMRAJ13y/SportsEra)** — sports community web app with posts, events, and auth &nbsp;`PHP`
+- **[StudyHub](https://github.com/YAMRAJ13y/StudyHub)** — platform to organize and streamline study workflows &nbsp;`JavaScript`
 
 <img src="https://raw.githubusercontent.com/YAMRAJ13y/YAMRAJ13y/main/assets/divider.svg" alt="" width="100%" />
 
@@ -100,7 +104,9 @@
 <div align="center">
 
 <a href="https://yamraj13y.github.io/YAMRAJ13y/"><img src="https://img.shields.io/badge/PORTFOLIO-00F0FF?style=for-the-badge&logoColor=black" alt="Portfolio" /></a>
+<a href="https://yamraj13y.github.io/YAMRAJ13y/assets/Solanki_Sumitkumar_Resume.pdf"><img src="https://img.shields.io/badge/RESUME_(PDF)-FF003C?style=for-the-badge&logoColor=white" alt="Resume" /></a>
 <a href="https://github.com/YAMRAJ13y"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/sumitsolanki13/"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
 </div>
 
