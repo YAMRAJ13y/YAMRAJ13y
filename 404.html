@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 · Lost in Yamlok</title>
+    <meta name="robots" content="noindex" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%230a0618'/%3E%3Ccircle%20cx='32'%20cy='32'%20r='25'%20fill='none'%20stroke='%23a855f7'%20stroke-width='2'/%3E%3Ctext%20x='32'%20y='44'%20font-size='34'%20text-anchor='middle'%20fill='%23f5c451'%20font-family='Georgia,serif'%3E%E0%A4%AF%3C/text%3E%3C/svg%3E"
+    />
+    <style>
+      :root {
+        --gold: #f5c451;
+        --ember: #ff7a18;
+        --ash: #d8cfc4;
+        --mute: #8a7f72;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        padding: 24px;
+        text-align: center;
+        color: var(--ash);
+        background: radial-gradient(120% 100% at 50% 120%, #2a1106 0%, #12090a 42%, #060304 100%);
+        font-family: ui-serif, Georgia, "Times New Roman", serif;
+        -webkit-font-smoothing: antialiased;
+        overflow: hidden;
+      }
+      .om { font-size: 34px; color: var(--gold); opacity: 0.8; text-shadow: 0 0 26px rgba(255, 122, 24, 0.6); margin-bottom: 18px; }
+      .kicker {
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute); margin-bottom: 22px;
+      }
+      .code {
+        font-weight: 700; line-height: 1; letter-spacing: 0.02em; font-size: clamp(88px, 20vw, 200px);
+        background: linear-gradient(180deg, #fff3dc 0%, var(--gold) 45%, var(--ember) 100%);
+        -webkit-background-clip: text; background-clip: text; color: transparent;
+        text-shadow: 0 0 70px rgba(255, 122, 24, 0.3);
+      }
+      h1 { font-weight: 500; font-size: clamp(18px, 3vw, 24px); margin: 18px 0 10px; color: var(--ash); }
+      p { color: var(--mute); font-size: 15px; line-height: 1.7; max-width: 38ch; margin: 0 auto 30px; }
+      a.home {
+        display: inline-block; font-family: ui-monospace, Menlo, monospace; font-size: 13px; letter-spacing: 0.1em;
+        text-decoration: none; color: #1a0e06; background: var(--gold); padding: 12px 22px; border-radius: 12px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 10px 30px -8px rgba(255, 122, 24, 0.6);
+      }
+      a.home:hover { transform: translateY(-2px); box-shadow: 0 16px 40px -10px rgba(255, 122, 24, 0.85); }
+      a.home:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="om">ॐ</div>
+      <div class="kicker">यमलोक · the ledger of the dead</div>
+      <div class="code">404</div>
+      <h1>This soul has wandered off the ledger.</h1>
+      <p>No such deed is inscribed in the Kaalsanchay. Chitragupt has no record of this path — return to the gate.</p>
+      <a class="home" href="/">↩ Return to the gate</a>
+    </main>
+  </body>
+</html>
